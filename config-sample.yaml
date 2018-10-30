@@ -1,0 +1,11 @@
+bot:
+  homeserver: localhost
+  baseUrl: http://localhost
+  userId: someuser
+  accessToken: xyz
+
+schedule: "0 4 * * *"
+
+avatars:
+  - "mxc://localhost/mxcurl-1"
+  - "mxc://localhost/mxcurl-2"

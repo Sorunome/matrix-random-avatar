@@ -1,0 +1,24 @@
+{
+  "name": "matrix-random-avatar",
+  "version": "0.0.1",
+  "description": "Random avatars on your matrix account",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project ./tsconfig.json -t stylish",
+    "start": "npm run-script build && node ./build/bot.js"
+  },
+  "author": "Sorunome",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "js-yaml": "^3.12.0",
+    "matrix-js-sdk": "^0.12.1",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.1"
+  }
+}
